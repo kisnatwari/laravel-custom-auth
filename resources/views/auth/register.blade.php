@@ -3,7 +3,8 @@
 @section('form')
   <h2 class="text-slate-700 text-center text-2xl font-semibold mb-4">Create Your Account</h2>
 
-  <form>
+  <form method="POST" action="{{route('user-register')}}">
+    @csrf
     <div class="grid grid-cols-2 gap-4">
       <div class="col">
         <label for="name" class="text-sm font-medium text-slate-700">Full Name</label>
