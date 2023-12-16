@@ -23,7 +23,7 @@
 
       <div class="col">
         <label for="password_confirmation" class="text-sm font-medium text-slate-700">Confirm Password</label>
-        <input type="password" class="block w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:ring-1" id="password_confirmation" placeholder="********" name="confirmation">
+        <input type="password" class="block w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:ring-1" id="password_confirmation" placeholder="********" name="password_confirmation">
       </div>
     </div>
 

@@ -2,7 +2,8 @@
 
 @section('form')
     <h2 class="text-slate-700 text-center text-2xl font-semibold mb-4">Login Here</h2>
-    <form>
+    <form action="{{route('user-login')}}" method="POST">
+        @csrf
         <div class="mb-4">
             <label for="email" class="text-sm font-medium text-slate-700">Email Address</label>
             <input type="email"
